@@ -8,7 +8,7 @@ const {
 
 const {
   loadPlanetsData,
-} = require('../../models/launches.mongo')
+} = require('../../models/planets.model')
 
 describe("Launches API", () => {
   beforeAll(async () => {
